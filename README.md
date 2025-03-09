@@ -144,3 +144,32 @@ Response
 {
     "detail": "Maintenance task with ID 5 has been successfully deleted."
 }
+
+
+#### Add a filter to the GET /tasks/ endpoint to filter tasks by vehicle registration number.
+##### GET /api/tasks/?vehicle_reg_no={vehicle_reg_no}
+Response
+[
+    {
+        "maintence_id": 6,
+        "vehicle_reg_no": "KDR 708P",
+        "maintenance_type": "Engine",
+        "description": "troubleshoot issues within a vehicle's engine",
+        "maintenance_date": "2025-03-09T16:25:20.929242Z",
+        "next_due_date": "2025-04-08T00:00:00Z",
+        "technician": "Jake Clement",
+        "status": "completed"
+    },
+    {
+        "maintence_id": 7,
+        "vehicle_reg_no": "KDR 708P",
+        "maintenance_type": "Engine",
+        "description": "troubleshoot issues within a vehicle's engine",
+        "maintenance_date": "2025-03-09T16:30:31.006466Z",
+        "next_due_date": "2025-04-08T00:00:00Z",
+        "technician": "Paul Clement",
+        "status": "completed"
+    }
+]
+
+
