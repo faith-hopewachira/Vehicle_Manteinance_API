@@ -104,9 +104,10 @@ Response
     }
 ]
 
-
 #### GET /api/tasks/{id}/ → Retrieve details of a specific maintenance task by ID.
-Response
+
+**Response:**
+```json
 {
     "maintence_id": 1,
     "vehicle_reg_no": "KBX 149Q",
