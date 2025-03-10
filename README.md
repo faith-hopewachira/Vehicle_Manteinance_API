@@ -23,7 +23,8 @@ http://127.0.0.1:8000/
 ## Example API requests and responses.
 ### Create a New Maintenance Task
 #### POST /api/tasks/→ Create a new maintenance task.
-Request
+**Request:**
+```json
 {
   "vehicle_reg_no": "KDR 708P",
   "maintenance_type": "Engine",
