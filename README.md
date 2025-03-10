@@ -50,8 +50,8 @@ Response
 
 
 #### GET /api/tasks/ → Retrieve a list of all maintenance tasks.
-Response
-
+**Response:**
+```json
 [
     {
         "maintence_id": 1,
@@ -122,7 +122,8 @@ Response
 
 
 #### PATCH /api/tasks/{id}/ → Update an existing maintenance task.
-Request
+**Request:**
+```json
 {
   "technician": "Jake Clement",
 }
@@ -142,7 +143,8 @@ Response
 
 #### DELETE /api/tasks/{id}/ → Remove a maintenance task if recorded incorrectly.
 
-Response
+**Response:**
+```json
 {
     "detail": "Maintenance task with ID 5 has been successfully deleted."
 }
@@ -150,7 +152,8 @@ Response
 
 #### Add a filter to the GET /tasks/ endpoint to filter tasks by vehicle registration number.
 ##### GET /api/tasks/?vehicle_reg_no={vehicle_reg_no}
-Response
+**Response:**
+```json
 [
     {
         "maintence_id": 6,
