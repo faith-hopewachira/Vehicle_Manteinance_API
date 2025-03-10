@@ -1,4 +1,14 @@
 # Vehicle-Maintenance-API
+## Django Data Types and Data Models
+
+| Attribute        | Django Data Type | Django Data Model |
+|------------------|------------------|-------------------|
+| maintence_id     | smallInt         | AutoField         |
+| vehicle_reg_no   | string           | CharField         |
+| maintenance_type | string           | CharField         |
+| description      | string           | CharField         |
+| maintenance_date | date             | DateTimeField     |
+| next_due_date    | date             | DateTimeField     |
 
 ## Setup instructions.
 ### Clone the repository
