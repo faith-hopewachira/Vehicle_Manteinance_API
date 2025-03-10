@@ -46,7 +46,7 @@ Response
     "technician": "Paul Clement",
     "status": "completed"
 }
-
+```
 
 
 #### GET /api/tasks/ → Retrieve a list of all maintenance tasks.
