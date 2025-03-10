@@ -104,6 +104,7 @@ Response
         "status": "completed"
     }
 ]
+```
 
 #### GET /api/tasks/{id}/ → Retrieve details of a specific maintenance task by ID.
 
@@ -119,6 +120,7 @@ Response
     "technician": "Peter Kariuki",
     "status": "pending"
 }
+```
 
 
 #### PATCH /api/tasks/{id}/ → Update an existing maintenance task.
@@ -139,7 +141,7 @@ Response
     "technician": "Jake Clement",
     "status": "completed"
 }
-
+```
 
 #### DELETE /api/tasks/{id}/ → Remove a maintenance task if recorded incorrectly.
 
@@ -149,6 +151,7 @@ Response
     "detail": "Maintenance task with ID 5 has been successfully deleted."
 }
 
+```
 
 #### Add a filter to the GET /tasks/ endpoint to filter tasks by vehicle registration number.
 ##### GET /api/tasks/?vehicle_reg_no={vehicle_reg_no}
@@ -176,5 +179,7 @@ Response
         "status": "completed"
     }
 ]
+
+```
 
 
